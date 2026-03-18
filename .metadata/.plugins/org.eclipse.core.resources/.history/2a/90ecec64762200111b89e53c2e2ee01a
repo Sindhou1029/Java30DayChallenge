@@ -1,0 +1,31 @@
+package com.challenge.org;
+
+import java.util.Scanner;
+
+public class SwapTwoNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.println("Enter the first number : ");
+		
+		int a =sc.nextInt(); //3
+		
+       System.out.println("Enter the second number : ");
+		
+		int b =sc.nextInt(); //2
+		
+		
+		a = a + b;   // a=5
+		b = a - b;   //b=5-2 =3
+		
+		a = a - b;
+		
+		System.out.println("The value of A is : " + a);
+		System.out.println("The value of B is : " + b);
+	}
+
+}
