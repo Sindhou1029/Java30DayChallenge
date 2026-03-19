@@ -98,3 +98,16 @@ java.io.IOException: Stream closed
 	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:235)
 	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:211)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SESSION 2026-03-19 18:51:02.369 -----------------------------------------------
+eclipse.buildId=4.38.0.20251204-0849
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/mks/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/mks/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2026-03-19 18:51:05.310
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-03-19 18:51:16.951
+!MESSAGE Logback config file: /Users/mks/Desktop/Sindhou/ProgramChallenge/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.101.20251017-1242.xml

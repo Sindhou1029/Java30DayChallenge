@@ -15,11 +15,16 @@ Scanner sc = new Scanner(System.in);
 	
 		int rev= 0;
 		
-		if (num!=0)
+		while (num!=0)
 		{
-		rev = num%10;
+		int digit = num%10;
+		
+		rev = rev*10 + digit;
+		
          num =  num/10;		
 		}
+		
+		System.out.println(" The reversed number is " + rev);
 	}
 
 }
